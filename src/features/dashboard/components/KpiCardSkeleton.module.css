@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.card {
+  min-height: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+}
+
+.line,
+.value {
+  display: block;
+  border-radius: var(--radius-control);
+  background: var(--color-border);
+}
+
+.line {
+  width: 42%;
+  height: var(--space-3);
+}
+
+.value {
+  width: 65%;
+  height: var(--space-8);
+}

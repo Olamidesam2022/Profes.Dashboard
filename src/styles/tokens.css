@@ -1,0 +1,67 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+
+  --color-bg: #12110f;
+  --color-surface: #1b1a17;
+  --color-surface-2: #24221e;
+  --color-border: #302e29;
+  --color-text: #f4f1ea;
+  --color-muted: #a29e94;
+  --color-positive: #1fb981;
+  --color-negative: #ee6c4d;
+  --color-chart-outline: #12110f;
+  --color-chart-1: #1fb981;
+  --color-chart-2: #f2b134;
+  --color-chart-3: #ee6c4d;
+  --color-chart-4: #2a9d8f;
+  --color-chart-5: #e5566d;
+  --color-chart-6: #a3b83a;
+  --color-chart-tint-1: #203b32;
+  --color-chart-tint-2: #3c3320;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius-card: 12px;
+  --radius-pill: 999px;
+  --radius-control: 8px;
+  --border-width: 1px;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 36px;
+
+  --focus-ring: 2px solid var(--color-chart-2);
+  --focus-offset: 2px;
+  --sidebar-width: 224px;
+  --sidebar-width-compact: 72px;
+  --content-max: 1600px;
+  --header-height: 96px;
+  --header-height-compact: 76px;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --color-bg: #f4f1ea;
+  --color-surface: #ffffff;
+  --color-surface-2: #efebe2;
+  --color-border: #e0dbd0;
+  --color-text: #1b1a17;
+  --color-muted: #6b675e;
+  --color-positive: #08734f;
+  --color-negative: #a9432d;
+  --color-chart-outline: #ffffff;
+  --color-chart-tint-1: #d9eee5;
+  --color-chart-tint-2: #f6e9c9;
+}
